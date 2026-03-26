@@ -12,4 +12,7 @@ int main()
     int sum = num1 + num2;
     cout << "Sum is:"<<sum;
     return 0;
+    /*I can declare all the int,flt or same type variable at once like
+    int num1,num2 and i can assign the value also like
+    int num1=10'numb2=20;*/ 
 }

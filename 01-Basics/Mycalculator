@@ -1,0 +1,41 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int num1,num2;
+    cout<<"Please enter 2 number";
+    cin>>num1>>num2;
+
+    int sum;
+    sum=num1+num2;
+    cout<<"Sum is "<<sum<<endl;
+
+//now subtraction
+
+ int sub;
+    sub=num1-num2;
+    cout<<"Subtraction is"<<sub<<endl;
+
+//now division
+int div;
+    div=num1/num2;
+    cout<<"Division is "<<div<<endl;
+
+//now multiplication
+int mul;
+    mul=num1*num2;
+    cout<<"Multiplication is "<<mul<<endl;
+
+//now reminder
+int rem;
+    rem=num1%num2;
+    cout<<"Reminder is "<<rem<<endl;
+
+//if i want 10/3 to get into float then
+double div2;
+    div2=(float)num1/num2;//it is called typecasting
+    cout<<"remainder with dosomik is "<<div2<<endl;
+    getch();
+
+}

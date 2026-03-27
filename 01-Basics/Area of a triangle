@@ -1,0 +1,15 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    double base,height,area;
+    cout<<"Please enter the base here: "<<endl;
+    cin>>base;
+    cout<<"Please enter the height here: "<<endl;
+    cin>>height;
+    area= (double) 1/2*base*height;// if we only write 1/2 computer will only take 0
+    cout<<"Your ans is: "<<area<<endl;
+    getch();
+
+}

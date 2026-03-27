@@ -1,0 +1,47 @@
+#include<iostream>
+#include<conio.h>
+#include<iomanip>//we have to use it to use setprecision. it mean input output manipulation
+using namespace std;
+int main()
+{
+    cout<<showpoint;
+    float num1,num2;
+    cout<<"Please enter 2 number";
+    cin>>num1>>num2;
+
+    float sum;
+    sum=num1+num2;
+    cout<<"Sum is: "<<sum<<endl;
+
+//now subtraction
+
+ float sub;
+    sub=num1-num2;
+    cout<<setw(15)<<"Subtraction is: "<<sub<<endl;// setw() let us decide how much space it will take
+
+//now division
+    cout<<noshowpoint;//here noshowpoint will not work
+    cout<<fixed;//cout<<setprecision is must after fixed
+    cout<<setprecision(10);
+    float div;
+    div=num1/num2;
+    cout<<"Division is: "<<div<<endl;
+
+//now multiplication
+
+float mul;
+    mul=num1*num2;
+    cout<<"Multiplication is: "<<mul<<endl;
+
+//now reminder
+int rem;
+/*    rem=num1%num2;
+    cout<<"Reminder is "<<rem<<endl;
+
+//if i want 10/3 to get into float then
+double div2;
+    div2=(float)num1/num2;//it is called typecasting
+    cout<<"remainder with dosomik is "<<div2<<endl;
+    getch();*/
+
+}
